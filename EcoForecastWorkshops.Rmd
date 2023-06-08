@@ -1,0 +1,32 @@
+---
+title: "EcoForcastInt Workshops"
+author: "Frances Stewart"
+date: "2023-06-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ecoforecast Initiative Workshops
+
+Site for all workshops: 
+https://ecoforecast.org/workshops/statistical-methods-seminar-series/
+
+# Site for iSDM workshop, and resources:
+https://ecoforecast.org/workshops/statistical-methods-seminar-series/#iSDMs
+
+```{r cars}
+source(iSDM.R)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

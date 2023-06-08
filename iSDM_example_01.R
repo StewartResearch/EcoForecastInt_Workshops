@@ -156,7 +156,7 @@ code <- nimble::nimbleCode({
 })
 
 # we have to give the MCMC algorithm starting values for parameters
-# for the latent N, we have to max sure that the initial values don't
+# for the latent N, we have to make sure that the initial values don't
 # conflict with the observed data - e.g., that the initial value is less
 # than the observed count - so for cells with counts, put the initial value
 # as the max + 1 of the observed counts
